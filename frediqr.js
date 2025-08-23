@@ -56,11 +56,12 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(8000);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Fredi_Ezra.sendMessage(Qr_Code_By_Fredi_Ezra.user.id,, { text: '' + b64data });
+				   let session = await Qr_Code_By_Fredi_Ezra.sendMessage(Qr_Code_By_Fredi_Ezra.user.id, { text: '' + b64data });
+	
 				   let LUCKY_MD_XFORCE_TEXT = `
 *⁠■■■■■■■■■■■■■■■*
 
-*CONGRATULATIONS 👏 JEEPERS CREEPER-XMD MULTI DEVICE 🗡️ IS CONNECTED TO YOUR WHATSAPP🤞*
+*CONGRATULATIONS 👏 SIR BRAVIN MULTI DEVICE 🗡️ IS CONNECTED TO YOUR WHATSAPP🤞*
 
 *■■■■■■■■■■■■■■■*
 _📢 FOR UPDATE AND HELPING FOLLOW CHANNEL 🌎 OR VISIT WEBSITE 🌐_ 
@@ -68,13 +69,14 @@ _📢 FOR UPDATE AND HELPING FOLLOW CHANNEL 🌎 OR VISIT WEBSITE 🌐_
 > https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g
 *🌐 Bot Host website link*
 > https://sir-bravine-delta.vercel.app/
+
 *■■■■■■■■■■■■■■■*
 _ℹ️ FOR MORE INFORMATION ABOUT AS AND BOT_
  
 *👤 sub GitHub info* @follow
->  https://github.com/black-spider436
+> https://github.com/black-spider436
 *🆕 Visit Our Website 
-> https://sir-bravine-delta.vercel.app/
+>https://github.com/black-spider436 
 *🗝️ Digitex xmd repo*
 > https://github.com/black-spider436/jeepers-creeper-xmd
 > Don't forget 😜 fork 🍴 and star 🌟 repo
@@ -82,12 +84,12 @@ _ℹ️ FOR MORE INFORMATION ABOUT AS AND BOT_
 
 *■■■■■■■■■■■■■■*
  _💬 for any problem connect with me_
-> Juma Wycliffe https://wa.me/254717263689
-> FredieTech https://wa.me/254724908267
+> Juma Wycliffe https://wa.me/254739285768
+> FredieTech https://wa.me/255752593977
 *THIS PROJECT SCRIPTS CREATED BY SIR BRAVIN*
 *■■■■■■■■■■■■■■*
-> regards maka`;
-	 await Qr_Code_By_Fredi_Ezra.sendMessage(Qr_Code_By_Fredi_Ezra.user.id,{text:jeepers_creeper_xmd_TEXT},{quoted:session})
+> regards sir bravin`;
+	 await Qr_Code_By_Fredi_Ezra.sendMessage(Qr_Code_By_Fredi_Ezra.user.id,{text:LUCKY_MD_XFORCE_TEXT},{quoted:session})
 
 
 
