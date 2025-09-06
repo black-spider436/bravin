@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(8000);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Fredi_Ezra.sendMessage(Qr_Code_By_Fredi_Ezra.user.id, { text: 'sir bravin<=>' + b64data });
+				   let session = await Qr_Code_By_Fredi_Ezra.sendMessage(Qr_Code_By_Fredi_Ezra.user.id, { text: 'sir-bravin<=>' + b64data });
 	
 				   let LUCKY_MD_XFORCE_TEXT = `
 *⁠■■■■■■■■■■■■■■■*
@@ -84,8 +84,8 @@ _ℹ️ FOR MORE INFORMATION ABOUT AS AND BOT_
 
 *■■■■■■■■■■■■■■*
  _💬 for any problem connect with me_
-> Juma Wycliffe https://wa.me/254739285768
-> FredieTech https://wa.me/255752593977
+> bravo https://wa.me/254739285768
+> sir bravin https://wa.me/254717263689
 *THIS PROJECT SCRIPTS CREATED BY SIR BRAVIN*
 *■■■■■■■■■■■■■■*
 > regards sir bravin`;
