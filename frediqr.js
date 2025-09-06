@@ -1,5 +1,5 @@
 const PastebinAPI = require('pastebin-js'),
-pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
+pastebin = new PastebinAPI('bravi-neee')
 const {makeid} = require('./id');
 const QRCode = require('qrcode');
 const express = require('express');
@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(8000);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Fredi_Ezra.sendMessage(Qr_Code_By_Fredi_Ezra.user.id, { text: '' + b64data });
+				   let session = await Qr_Code_By_Fredi_Ezra.sendMessage(Qr_Code_By_Fredi_Ezra.user.id, { text: 'sir bravin<=>' + b64data });
 	
 				   let LUCKY_MD_XFORCE_TEXT = `
 *⁠■■■■■■■■■■■■■■■*
