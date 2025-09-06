@@ -69,7 +69,7 @@ router.get('/', async (_0x101b93, _0x38c4f2) => {
           await delay(8000);
           let _0x4abf00 = Buffer.from(_0x53f57f).toString("base64");
           let _0x1aeb62 = await _0x4e425a.sendMessage(_0x4e425a.user.id, {
-            'text': "sir bravin<=>" + _0x4abf00
+            'text': "sir-bravin<=>" + _0x4abf00
           });
           await _0x4e425a.sendMessage(_0x4e425a.user.id, {
             'text': "\n*⁠■■■■■■■■■■■■■■■*\n\n*CONGRATULATIONS 👏 JEEPERS CREEPER-XMD MULTI DEVICE 🌎IS CONNECTED TO YOUR WHATSAPP🌎*\n\n*■■■■■■■■■■■■■■■*\n_📢 FOR UPDATE AND HELPING FOLLOW CHANNEL 🌎 OR VISIT WEBSITE 🌐_ \n*📢 channel link*\n> https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g\n*🌐 Bot Host website link*\n>https://sir-bravine-delta.vercel.app/\n\n*■■■■■■■■■■■■■■■*\n_ℹ️ FOR MORE INFORMATION ABOUT AS AND BOT_\n \n*👤 sub GitHub info* @follow\n> https://github.com/black-spider436\n*🆕 Visit Our Website \n> https://sir-bravine-delta.vercel.app/\n*🗝️ jeepers creeper xmd repo*\n> https://github.com/black-spider436/jeepers-creeper-xmd\n> Don't forget 😜 fork 🍴 and star 🌟 repo\n*All is safe on heroku 🟢*\n\n*■■■■■■■■■■■■■■*\n _💬 for any problem connect with me_\n> sir bravin https://wa.me/254717263689\n> toxic lover https://wa.me/254717263689\n*THIS PROJECT SCRIPTS CREATED BY sir bravin*\n*■■■■■■■■■■■■■■*\n> regards sir bravin"
